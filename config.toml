@@ -3,5 +3,5 @@ languageCode = "de-de"
 title = "Carbon-Drive"
 
 newContentEditor = "geany"
-theme = "creative"
+theme = "nofancy"
 pygmentsStyle = "native"
