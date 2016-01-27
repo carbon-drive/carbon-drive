@@ -1,3 +1,7 @@
-baseurl = "http://yourSiteHere/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://www.carbon-drive.de/"
+languageCode = "de-de"
+title = "Carbon-Drive"
+
+newContentEditor = "geany"
+theme = "creative"
+pygmentsStyle = "native"
