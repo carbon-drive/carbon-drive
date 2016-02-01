@@ -1,7 +1,102 @@
-baseurl = "http://www.carbon-drive.de/"
+baseurl = "/"
 languageCode = "de-de"
-title = "Carbon-Drive"
+title = "Carbon Drive"
+theme = "creative"
 
-newContentEditor = "geany"
-theme = "nofancy"
-pygmentsStyle = "native"
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Martin Klimach"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Carbon-Drive"
+
+		[params.navigation.links]
+			about     = "Das Team"
+			services  = "Ihre Vorteile"
+			portfolio = "Das Projekt"
+			contact   = "Ihr Ansprechpartner"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Präzise und schnell."
+		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Wir wissen wie es geht!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Los geht's!"
+
+
+	# Service section
+	[params.services]
+		headline = "Zu Ihren Diensten"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Kohlenstoff: Unser Werkstoff"
+            description = "Mit unseren hochsteifen Kohlenstofffasern werden Ihre Werkzeugmaschinen schneller und präziser."
+
+        [[params.services.list]]
+			icon = "fa-graduation-cap"
+			title = "Unser Know-Kow ist unschlagbar"
+			description = "Wir legen Ihre Spindelwelle nach neusten wissenschaftlichen Erkenntnissen aus!"
+        
+        [[params.services.list]]
+            icon = "fa-crosshairs"
+            title = "Präzion und Qualität"
+            description = "Unsere CFK-Spindelwellen erfüllen auch Ihre höchsten Ansprüche!"
+		
+		[[params.services.list]]
+            icon = "fa-line-chart"
+            title = "Wir steigern Ihren Gewinn"
+            description = "Mit unseren Spindelwellen können Sie schneller präzise fertigen."
+
+
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Ansprechpartner"
+        date = "Datum"
+        category = "Kategorie"
+        buttonText = "Schließen"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Stellen Sie uns Fragen!"
+		description = "Sind Sie bereit für den nächsten Schritt auf dem Weg zu höchster Präzision? Dann rufen Sie uns an oder schreiben Sie uns eine Email. Wir freuen uns darauf Sie voran zubringen!"
+		phone = "+49-6151-16-22026"
+		email = "info@carbon-drive.de"
