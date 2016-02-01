@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://130.83.211.135/"
 languageCode = "de-de"
 title = "Carbon Drive"
 theme = "creative"
@@ -24,7 +24,7 @@ theme = "creative"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
-
+        
 
 	# Navigation
 	[params.navigation]
