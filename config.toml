@@ -1,6 +1,6 @@
 baseurl = "http://carbon-drive.netlify.com/"
 languageCode = "de-de"
-title = "Carbon Drive"
+title = "Carbon Drive ist toll"
 theme = "hugo-creative-theme"
 
 [params]
