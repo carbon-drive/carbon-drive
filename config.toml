@@ -19,8 +19,8 @@ theme = "hugo-creative-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Martin Klimach"
-	description = "Your description"
+	name = "Carbon-Drive GmbH"
+	description = "Wir berechnen und bauen für Sie die präzisesten Spindelwellen der Welt."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -31,7 +31,8 @@ theme = "hugo-creative-theme"
 		brand = "Carbon-Drive"
 
 		[params.navigation.links]
-			about     = "Das Team"
+			about     = "Die Vision"
+            team      = "Das Team"
 			services  = "Ihre Vorteile"
 			portfolio = "Das Projekt"
 			contact   = "Ihr Ansprechpartner"
@@ -41,21 +42,25 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Präzise und schnell."
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
-		buttonText = "Find out more"
+		subtitle   = "[Wir](http://www.carbon-drive.de) berechnen und bauen für Sie die Spindelwellen der nächste Generation."
+		buttonText = "Finden Sie mehr heraus!"
 
 
 	# About section
 	[params.about]
-		headline    = "Wir wissen wie es geht!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Los geht's!"
+		headline    = "Wie sehen die Spindelwellen der Zukunft aus?"
+		description = "In einem Wort: **Schwarz**! Denn sie sind aus Kohlenstofffaser-Kunststoff-Verbund (kurz **CFK**). Wenn man weiß wie man damit konstruieren muss, dann ist CFK der der ideale Spindelwellenwerkstoff. Durch die Faserorientierung lassen sich die mechanischen Eigenschaften gezielt einstellen. Steifigkeit, Wärmedehnung und Dämpfung lassen sich somit an die eigenen Bedürfnisse anpassen."
+		buttonText  = "Zurück nach oben!"
 
-
+	# Team section
+	[params.team]
+		headline    = "Wer sind wir?"
+		description = "Wir sind ein junges Spin-Off der Fachgebiets Konstruktiver Leichtbau und Bauweisen. Im einzelnen Dr.-Ing. Martin Klimach, Dr.-Ing. Jakob Katz, Alexander Brechtel, M.Sc. und Volker Rosmann"
+		buttonText  = "Zurück nach oben!"
+        
 	# Service section
 	[params.services]
 		headline = "Zu Ihren Diensten"
-
         [[params.services.list]]
             icon = "fa-diamond"
             title = "Kohlenstoff: Unser Werkstoff"
@@ -76,9 +81,6 @@ theme = "hugo-creative-theme"
             title = "Wir steigern Ihren Gewinn"
             description = "Mit unseren Spindelwellen können Sie schneller präzise fertigen."
 
-
-
-
     # Portfolio modals
 	[params.portfolio.modal]
         client = "Ansprechpartner"
@@ -88,11 +90,11 @@ theme = "hugo-creative-theme"
 
     # Aside section
 	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
-
+		headline = "Schauen Sie auch bei unserem Mutter-Institut dem Fachgebiet für Konstruktiven Leichtbau und Bauweisen (KLuB) der TU Darmstadt vorbei."
 		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+			text = "Bring mich zum KLuB"
+			link = "http://www.klub.tu-darmstadt.de"
+
 
 	# Contact section
 	[params.contact]
