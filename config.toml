@@ -68,7 +68,7 @@ theme = "hugo-creative-theme"
         
         [[params.services.list]]
             icon = "fa-crosshairs"
-            title = "Präzion und Qualität"
+            title = "Präzision und Qualität"
             description = "Unsere CFK-Spindelwellen erfüllen auch Ihre höchsten Ansprüche!"
 		
 		[[params.services.list]]
