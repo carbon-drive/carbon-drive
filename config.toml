@@ -50,7 +50,7 @@ theme = "hugo-creative-theme"
 	[params.about]
 		headline    = "Wie sehen die Spindelwellen der Zukunft aus?"
 		description = "In einem Wort: **Schwarz**! Denn sie sind aus Kohlenstofffaser-Kunststoff-Verbund (kurz **CFK**). Wenn man weiß wie man damit konstruieren muss, dann ist CFK der der ideale Spindelwellenwerkstoff. Durch die Faserorientierung lassen sich die mechanischen Eigenschaften gezielt einstellen. Steifigkeit, Wärmedehnung und Dämpfung lassen sich somit an die eigenen Bedürfnisse anpassen."
-		buttonText  = "Zurück nach oben!"
+		buttonText  = "Das können wir für Sie tun!"
 
 	# Team section
 	[params.team]
