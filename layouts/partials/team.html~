@@ -1,0 +1,13 @@
+{{ "<!-- TEAM -->" | safeHTML }}
+<section class="bg-primary" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-90 text-center">
+            	<h2 class="section-heading">{{ with .Site.Params.team.headline }}{{ . }}{{ end }}</h1>
+            	<hr class="light">
+            	<p class="text-faded">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
+            	<a href="#about" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.team.buttonText }}{{ . }}{{ end }}</a>
+	    </div>
+        </div>
+    </div>
+</header>

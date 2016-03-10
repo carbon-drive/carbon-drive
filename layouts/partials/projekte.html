@@ -1,0 +1,11 @@
+{{ "<!-- Projekte -->" | safeHTML }}
+<aside class="bg-dark" id="projekte">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>{{ with .Site.Params.projekte.headline }}{{ . }}{{ end }}</h2>
+            <hr class="light">
+            <p class="text-faded">{{ with .Site.Params.projekte.description }}{{ . | markdownify }}{{ end }}</p>
+            <a href="#portfolio" class="btn btn-default btn-xl page-scroll wow tata">{{ with .Site.Params.projekte.buttonText }}{{ . }}{{ end }}</a>
+        </div>
+    </div>
+</aside>

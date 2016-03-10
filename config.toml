@@ -5,100 +5,104 @@ theme = "hugo-creative-theme"
 
 [params]
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
+  # You can use Markdown syntax for urls [text](//url.to/source) for
+  # most longer texts.
 
-	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
 
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more informtion take a look at the README.
+  # All projects of the portfolio are defined in their own files.
+  # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+  # folder into the 'data' directory at the root of this Hugo site.
+  # For more informtion take a look at the README.
 
-	# To provide some metadata for search engines feel free to add a few
+  # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Carbon-Drive GmbH"
-	description = "Wir berechnen und bauen für Sie die präzisesten Spindelwellen der Welt."
+  name = "Carbon-Drive GmbH"
+  description = "Wir berechnen und bauen für Sie die präzisesten Spindelwellen der Welt."
 
-	# The path must be relative to the static folder
-	favicon = "favicon.ico"
-        
-
-	# Navigation
-	[params.navigation]
-		brand = "Carbon-Drive"
-
-		[params.navigation.links]
-			about     = "Die Vision"
-            team      = "Das Team"
-			services  = "Ihre Vorteile"
-			portfolio = "Das Projekt"
-			contact   = "Ihr Ansprechpartner"
+  # The path must be relative to the static folder
+  favicon = "favicon.ico"
 
 
-	# Hero section
-	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Präzise und schnell."
-		subtitle   = "[Wir](http://www.carbon-drive.de) berechnen und bauen für Sie die Spindelwellen der nächste Generation."
-		buttonText = "Finden Sie mehr heraus!"
+  # Navigation
+  [params.navigation]
+    brand = "Carbon-Drive"
+
+    [params.navigation.links]
+      about     = "Die Vision"
+      team      = "Das Team"
+      services  = "Ihre Vorteile"
+      portfolio = "Das Projekt"
+      contact   = "Ihr Ansprechpartner"
 
 
-	# About section
-	[params.about]
-		headline    = "Wie sehen die Spindelwellen der Zukunft aus?"
-		description = "In einem Wort: **Schwarz**! Denn sie sind aus Kohlenstofffaser-Kunststoff-Verbund (kurz **CFK**). Wenn man weiß wie man damit konstruieren muss, dann ist CFK der der ideale Spindelwellenwerkstoff. Durch die Faserorientierung lassen sich die mechanischen Eigenschaften gezielt einstellen. Steifigkeit, Wärmedehnung und Dämpfung lassen sich somit an die eigenen Bedürfnisse anpassen."
-		buttonText  = "Das können wir für Sie tun!"
+  # Hero section
+  [params.hero]
+    # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+    slogan     = "Präzise und schnell."
+    subtitle   = "[Wir](http://www.carbon-drive.de) berechnen und bauen für Sie die Spindelwellen der nächste Generation."
+    buttonText = "Finden Sie mehr heraus!"
 
-	# Team section
-	[params.team]
-		headline    = "Wer sind wir?"
-		description = "Wir sind ein junges Spin-Off der Fachgebiets Konstruktiver Leichtbau und Bauweisen. Im einzelnen Dr.-Ing. Martin Klimach, Dr.-Ing. Jakob Katz, Alexander Brechtel, M.Sc. und Volker Rosmann"
-		buttonText  = "Zurück nach oben!"
-        
-	# Service section
-	[params.services]
-		headline = "Zu Ihren Diensten"
+
+  # About section
+  [params.about]
+    headline    = "Wie sehen die Spindelwellen der Zukunft aus?"
+    description = "In einem Wort: **Schwarz**! Denn sie sind aus Kohlenstofffaser-Kunststoff-Verbund (kurz **CFK**). Wenn man weiß wie man damit konstruieren muss, dann ist CFK der der ideale Spindelwellenwerkstoff. Durch die Faserorientierung lassen sich die mechanischen Eigenschaften gezielt einstellen. Steifigkeit, Wärmedehnung und Dämpfung lassen sich somit an die eigenen Bedürfnisse anpassen."
+    buttonText  = "Das können wir für Sie tun!"
+
+  # Team section
+  [params.team]
+    headline    = "Wer sind wir?"
+    description = "Wir sind ein junges Spin-Off der Fachgebiets Konstruktiver Leichtbau und Bauweisen. Im einzelnen Dr.-Ing. Martin Klimach, Dr.-Ing. Jakob Katz, Alexander Brechtel, M.Sc. und Volker Rosmann"
+
+  # Service section
+  [params.services]
+    headline = "Zu Ihren Diensten"
+    buttonText  = "Zurück nach oben!"
         [[params.services.list]]
             icon = "fa-diamond"
             title = "Kohlenstoff: Unser Werkstoff"
             description = "Mit unseren hochsteifen Kohlenstofffasern werden Ihre Werkzeugmaschinen schneller und präziser."
 
         [[params.services.list]]
-			icon = "fa-graduation-cap"
-			title = "Unser Know-Kow ist unschlagbar"
-			description = "Wir legen Ihre Spindelwelle nach neusten wissenschaftlichen Erkenntnissen aus!"
-        
+           icon = "fa-graduation-cap"
+           title = "Unser Know-Kow ist unschlagbar"
+           description = "Wir legen Ihre Spindelwelle nach neusten wissenschaftlichen Erkenntnissen aus!"
+
         [[params.services.list]]
             icon = "fa-crosshairs"
             title = "Präzision und Qualität"
             description = "Unsere CFK-Spindelwellen erfüllen auch Ihre höchsten Ansprüche!"
-		
-		[[params.services.list]]
+
+    [[params.services.list]]
             icon = "fa-line-chart"
             title = "Wir steigern Ihren Gewinn"
             description = "Mit unseren Spindelwellen können Sie schneller präzise fertigen."
 
     # Portfolio modals
-	[params.portfolio.modal]
+  [params.portfolio.modal]
         client = "Ansprechpartner"
         date = "Datum"
         category = "Kategorie"
         buttonText = "Schließen"
+  # Portfolio modals
+  [params.team_portfolio.modal]
+            client = "Ansprechpartner"
+            date = "Datum"
+            category = "Kategorie"
+            buttonText = "Schließen"
+    # Projekte section
+  [params.projekte]
+    headline    = "Aktuelle Projekte"
+    description = "Hier stellen wir Ihnen aktuelle Forschungsprojekte vor."
+    buttonText  = "Zu den Projekten!"
 
-    # Aside section
-	[params.aside]
-		headline = "Schauen Sie auch bei unserem Mutter-Institut dem Fachgebiet für Konstruktiven Leichtbau und Bauweisen (KLuB) der TU Darmstadt vorbei."
-		[params.aside.button]
-			text = "Bring mich zum KLuB"
-			link = "http://www.klub.tu-darmstadt.de"
 
-
-	# Contact section
-	[params.contact]
-		headline = "Stellen Sie uns Fragen!"
-		description = "Sind Sie bereit für den nächsten Schritt auf dem Weg zu höchster Präzision? Dann rufen Sie uns an oder schreiben Sie uns eine Email. Wir freuen uns darauf Sie voran zubringen!"
-		phone = "+49-6151-16-22026"
-		email = "info@carbon-drive.de"
+  # Contact section
+  [params.contact]
+    headline = "Stellen Sie uns Fragen!"
+    description = "Sind Sie bereit für den nächsten Schritt auf dem Weg zu höchster Präzision? Dann rufen Sie uns an oder schreiben Sie uns eine Email. Wir freuen uns darauf Sie voran zubringen!"
+    phone = "+49-6151-16-22026"
+    email = "info@carbon-drive.de"
