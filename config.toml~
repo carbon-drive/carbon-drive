@@ -1,6 +1,6 @@
 baseurl = "http://carbon-drive.netlify.com/"
 languageCode = "de-de"
-title = "Carbon Drive Ihre CFK-Experten"
+title = "Carbon Drive ist toll"
 theme = "hugo-creative-theme"
 
 [params]
@@ -48,25 +48,22 @@ theme = "hugo-creative-theme"
 
   # About section
   [params.about]
-    headline    = "Die Vision"
-    description = """Wir wissen: _CFK ist der ideale Spindelwellenwerkstoff!_
-    Unsere Vision ist es dieses Wissen dem breiten Werkzeugmaschinenbau zugänglich
-    zumachen. Nur durch solche neuen Technologien kann der High-Tech-Standort Deutschland seine Spitzenstellung
-    sich behaupten. """
-    buttonText  = "Wie können Sie von unserem Wissen profitieren?"
+    headline    = "Wie sehen die Spindelwellen der Zukunft aus?"
+    description = "In einem Wort: **Schwarz**! Denn sie sind aus Kohlenstofffaser-Kunststoff-Verbund (kurz **CFK**). Wenn man weiß wie man damit konstruieren muss, dann ist CFK der der ideale Spindelwellenwerkstoff. Durch die Faserorientierung lassen sich die mechanischen Eigenschaften gezielt einstellen. Steifigkeit, Wärmedehnung und Dämpfung lassen sich somit an die eigenen Bedürfnisse anpassen."
+    buttonText  = "Das können wir für Sie tun!"
 
   # Team section
   [params.team]
-    headline    = "Das Team"
+    headline    = "Wer sind wir?"
     description = "Wir sind ein junges Spin-Off der Fachgebiets Konstruktiver Leichtbau und Bauweisen. Im einzelnen Dr.-Ing. Martin Klimach, Dr.-Ing. Jakob Katz, Alexander Brechtel, M.Sc. und Volker Rosmann"
 
   # Service section
   [params.services]
-    headline = "Ihre Vorteile"
-    buttonText  = "Welche Gesichter stecken hinter Carbon-Drive"
+    headline = "Zu Ihren Diensten"
+    buttonText  = "Zurück nach oben!"
         [[params.services.list]]
             icon = "fa-diamond"
-            title = "Kohlenstoff: Der Zukunftswerkstoff"
+            title = "Kohlenstoff: Unser Werkstoff"
             description = "Mit unseren hochsteifen Kohlenstofffasern werden Ihre Werkzeugmaschinen schneller und präziser."
 
         [[params.services.list]]
@@ -92,21 +89,15 @@ theme = "hugo-creative-theme"
         buttonText = "Schließen"
   # Portfolio modals
   [params.team_portfolio.modal]
-            client = "Kontakt"
+            client = "Ansprechpartner"
             date = "Datum"
-            mail = "E-Mail"
-            phone = "Telefon"
-            category = "Position"
+            category = "Kategorie"
             buttonText = "Schließen"
     # Projekte section
   [params.projekte]
-    headline    = "Das Projekt"
-    description = """Das erklärte Ziel ist es die besten Spindelwellen der Welt zu bauen.
-                   Dieses Projekt haben wir in mehrere Arbeitspakete unterteilt:
-                   1. Eigenschaften des Referenzsystems mit Stahlwelle ermitteln
-                   2. Einbau der CFK-Spindelwelle
-                   3. Eigenschaften des Systems mit CFK-Spindelwelle ermitteln """
-    buttonText  = "Zu den Teilprojekten!"
+    headline    = "Aktuelle Projekte"
+    description = "Hier stellen wir Ihnen aktuelle Forschungsprojekte vor."
+    buttonText  = "Zu den Projekten!"
 
 
   # Contact section

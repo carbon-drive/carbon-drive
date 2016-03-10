@@ -2,7 +2,10 @@ modalID: 2
 title: Dr.-Ing. Jakob Katz
 date: 2014-07-09
 img: jakob.png
-client: Jakob Katz
-clientLink: "mailto:katz@carbon-drive.de"
-category: Entwicklungsleitung
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+mail: katz@carbon-drive.de
+phone: 06151 16 22026
+category: Entwicklung
+description: "Dr. Katz hat von 2011 bis 2015 am Fachgebiet Konstruktiver Leichtbau
+  und Bauweisen zu Lamellenkupplungen aus GFK promoviert. Seine Passion gilt neben
+  der Mechanik von Faser-Kunststoff-Verbunden der Entwicklung mechatronischer
+  Systeme."
