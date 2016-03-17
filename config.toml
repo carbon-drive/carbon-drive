@@ -1,4 +1,4 @@
-baseurl = "http://carbon-drive.netlify.com/"
+baseurl = "/"
 languageCode = "de-de"
 title = "Carbon Drive Ihre CFK-Experten"
 theme = "hugo-creative-theme"
