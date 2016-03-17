@@ -483,6 +483,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
-.logoRow{float:left;width:100%;margin-bottom:0px;margin-top:0px}.index .logoRow .pics{max-width:850px;margin:0 auto}.index
+.logoRow{float:center;width:100%;margin-bottom:0px;margin-top:0px}.index .logoRow .pics{max-width:850px;margin:0 auto}.index
 .logoRow{margin-top:0}.index .logoRow .pics .existImg{height:100px;margin-left:0}}
-.existImg{height:12px;margin-left:12px}.index
+.existImg{height:100px;margin-left:50px}.index
