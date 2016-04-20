@@ -24,7 +24,8 @@ theme = "hugo-creative-theme"
 
   # The path must be relative to the static folder
   favicon = "favicon.ico"
-
+  
+  # Unsere Vorlaeufige Farbe ist #162B4B
 
   # Navigation
   [params.navigation]

@@ -1,5 +1,4 @@
 +++
-categories = ["misc"]
 date = "2016-01-27T08:04:03+01:00"
 title = "My First Post"
 

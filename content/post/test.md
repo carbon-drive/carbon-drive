@@ -1,5 +1,4 @@
 +++
-categories = ["misc"]
 date = "2016-01-27T07:51:55+01:00"
 title = "Das Team"
 
@@ -24,3 +23,4 @@ Alexander Brechtel
 Volker Rosmann
 
 ![Volker Rosmann](http://1.bp.blogspot.com/-f5QCtvIpSCY/U7Zpw5s4StI/AAAAAAAAWcU/dEGo1MqEiqY/s1600/Martin+Gutwald.JPG)
+[about3]({{< ref "#about" >}})

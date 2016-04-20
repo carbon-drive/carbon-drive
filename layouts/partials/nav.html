@@ -9,25 +9,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+            <a class="navbar-brand page-scroll" href="#page-top"> <img src="../img/logo.png" alt= "Kohlebri" style=height:30px> </a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+            {{ with .Site.Params.navigation.links }}
                 <li>
-                    <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="/#about">{{ .about }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="/#services">{{ .services }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.links.team }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="/#team">{{ .team }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#projekte">{{ with .Site.Params.navigation.links.portfolio }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="/#projekte">{{ .portfolio }}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="/#contact">{{.contact }}{{ end }}</a>
                 </li>
             </ul>
         </div>
