@@ -24,7 +24,7 @@ theme = "hugo-creative-theme"
 
   # The path must be relative to the static folder
   favicon = "favicon.ico"
-  
+
   # Unsere Vorlaeufige Farbe ist #162B4B
 
   # Navigation
@@ -38,13 +38,17 @@ theme = "hugo-creative-theme"
       portfolio = "Das Projekt"
       contact   = "Ihr Ansprechpartner"
 
+    [[menu.main]]
+          name = "Blog"
+          identifier = "post"
+          url = "/post/"
 
   # Hero section
   [params.hero]
     # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-    slogan     = "Präzise und schnell."
-    subtitle   = "[Wir](http://www.carbon-drive.de) berechnen und bauen für Sie die Spindelwellen der nächste Generation."
-    buttonText = "Finden Sie mehr heraus!"
+    slogan     = "Leichter. Präziser. Schneller."
+    subtitle   = "CFK-Motorspindeln und Komponenten"
+    buttonText = "Finden Sie mehr herau!"
 
 
   # About section
