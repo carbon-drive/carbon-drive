@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Montserrat','Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -410,9 +410,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
-    color: #fff;
-    background-color: #ee4b28;
+    border-color: #00ffff;
+    color: #000000;
+    background-color: #00ffff;
 }
 
 .btn-primary:active,

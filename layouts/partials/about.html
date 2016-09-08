@@ -1,13 +1,118 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
-<section class="bg-primary" id="about">
+<section  class="bg-primary" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">{{ with .Site.Params.about.headline }}{{ . }}{{ end }}</h2>
                 <hr class="light">
-                <p class="text-faded">{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
-                <a href="#services" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.about.buttonText }}{{ . }}{{ end }}</a>
+                <p ><i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}<i class="fa fa-quote-right fa-2x fa-pull-right" aria-hidden="true"></i><br><br></p>
+                <a href="#about2" class="btn btn-default btn-xl page-scroll wow tata">Was bewirkt der Einsatz von CFK?</a>
+
+        </div>
+    </div>
+</section>
+<section  id="about2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <h2 class="section-heading">Vorteile durch CFK</h2>
+              <hr>
+                <table>
+                  <tr>
+                    <td rowspan="3">
+                      <img alt="Faser_Welle_Werkzeug" title="Faser_Welle_Werkzeug" src="img/faser_welle_werkzeug.png" class="img-responsive center-block">
+                    </td>
+                    <td style="text-align: left">
+                        <h3 class="section-heading">Werkstoffvorteile von CFK</h3>
+                        <ul>
+                          <li>geringe Masse</li>
+                          <li>hohe Steifigkeit</li>
+                          <li>keine thermische Ausdehnung</li>
+                          <li>additive Fertigungsverfahren</li>
+                        </ul>
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left">
+                        <h3 class="section-heading">Benefit für die Werkzeugmaschine</h3>
+                        <ul>
+                          <li>kürzere Bearbeitungszeiten</li>
+                          <li>geringerer Energiebedarf</li>
+                          <li>höhere Präzision</li>
+                          <li>Sensorintegration an beliebiger Stelle</li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left">
+                        <h3 class="section-heading">Wirtschaftlicher Erfolg</h3>
+                        <ul>
+                          <li>höhere Produktivität</li>
+                          <li>geringerer Betriebskosten</li>
+                          <hr style="margin-left: 0">
+                        </ul>
+                          <ol>Gewinnsteigerung</ol>
+
+                      </td>
+                  </tr>
+                </table>
+
+                </div>
+
+        </div>
+    </div>
+</section>
+<section  class="bg-primary" id="about3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Die Motorspindel</h2>
+                <hr class="light">
+                <p >CFK-Einsatz im Herzstück der Werkzeugmaschine: Hier wo die Möglichkeiten mit Stahl lange ausgereizt sind, kann der Einsatz von CFK ein komplett neues Leistungsspektrum erschließen.<br><br></p>
             </div>
+    </div>
+</section>
+<section  id="about4">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-16 col-lg-offset-1 text-center">
+                <table>
+                  <tr>
+
+                    <td colspan="2" style="text-align: left">
+                        <h3 class="section-heading">Daten der ersten Voll-Carbon-Motorspindel</h3>
+                        <hr style="margin-left: 0">
+                    </td>
+                  </tr>
+                  <td style="text-align: left">
+                        <dl>
+                          <dt>Drehzahl</dt><dd>35.000 rpm</dd>
+                          <dt>Leistung</dt><dd>10 kW</dd>
+                          <dt>Gewicht</dt><dd>5 kg</dd>
+                          <dt>Durchmesser</dt><dd> Ø 109 mm</dd>
+                          <dt>Länge</dt><dd> 190 mm</dd>
+                          <dt>Werkzeugschnittstelle</dt><dd>HSK-A40</dd>
+                          <dt>Lagerschilde</dt><dd>CFK-Pressteile</dd>
+                          <dt>Welle & Gehäuse</dt><dd>CFK-Wickelteile</dd>
+                          <dt>Lagerung</dt><dd>4 Stk. Hochgeschindigkeits Hybridlager</dd>
+                          <dd>fettgeschmiert</dd>
+                          <dd>starr angestellt</dd>
+                          <dt>Positionieren</dt><dd>Drehgeber mit Referenzfahne</dd>
+                          <dt>Kühlung</dt><dd>2,2 kW- Flüssigkeitskühlkreislauf</dd>
+                          <dt>Motorbauart</dt><dd>Permanenterregter Synchronmotor</dd>
+                        </dl>
+
+                    </td>
+                    <td>
+                      <img alt="10kW-Spindel" title="10kW Voll-Carbon-Motorspindel" src="img/10kW_MSP.jpg" class="img-responsive center-block">
+                    </td>
+                  </tr>
+                </table>
+
+                </div>
+
         </div>
     </div>
 </section>

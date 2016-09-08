@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "de-de"
 title = "Carbon Drive Ihre CFK-Experten"
-theme = "hugo-creative-theme"
+#theme = "hugo-creative-theme"
 
 [params]
 
@@ -20,7 +20,7 @@ theme = "hugo-creative-theme"
   # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
   name = "Carbon-Drive GmbH"
-  description = "Wir berechnen und bauen für Sie die präzisesten Spindelwellen der Welt."
+  description = "CFK-Motorspindeln und Komponenten: Leichter. Präziser. Schneller."
 
   # The path must be relative to the static folder
   favicon = "favicon.ico"
@@ -32,11 +32,12 @@ theme = "hugo-creative-theme"
     brand = "Carbon-Drive"
 
     [params.navigation.links]
-      about     = "Die Vision"
-      team      = "Das Team"
+      about     = "Unser Ziel"
+      team      = "Unser Team"
       services  = "Ihre Vorteile"
       portfolio = "Das Projekt"
-      contact   = "Ihr Ansprechpartner"
+      contact   = "Ihre Ansprechpartner"
+      blog   = "Blog"
 
     [[menu.main]]
           name = "Blog"
@@ -47,18 +48,15 @@ theme = "hugo-creative-theme"
   [params.hero]
     # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
     slogan     = "Leichter. Präziser. Schneller."
-    subtitle   = "CFK-Motorspindeln und Komponenten"
-    buttonText = "Finden Sie mehr herau!"
+    subtitle   = "CFK-Motorspindeln und Komponenten von Carbon-Drive"
+    buttonText = "Finden Sie mehr heraus!"
 
 
   # About section
   [params.about]
-    headline    = "Die Vision"
-    description = """Wir wissen: _CFK ist der ideale Spindelwellenwerkstoff!_
-    Unsere Vision ist es dieses Wissen dem breiten Werkzeugmaschinenbau zugänglich
-    zumachen. Nur durch solche neuen Technologien kann der High-Tech-Standort Deutschland seine Spitzenstellung
-    sich behaupten. """
-    buttonText  = "Wie können Sie von unserem Wissen profitieren?"
+    headline    = "Unser Ziel"
+    description = """Unser Ziel ist es, die Leichtbau-optimalen Werkstoffeigenschaften von CFK zu nutzen, um den nächsten Technologiesprung im Werkzeugmaschinenbau einzuleiten. """
+    buttonText  = "Zur weltweit ersten Voll-CFK-Motorspindel"
 
   # Team section
   [params.team]
