@@ -32,9 +32,9 @@ title = "Carbon Drive Ihre CFK-Experten"
     brand = "Carbon-Drive"
 
     [params.navigation.links]
-      about     = "Unser Ziel"
-      team      = "Unser Team"
-      services  = "Ihre Vorteile"
+      ziel     = "Unser Ziel"
+      vorteile      = "Vorteile CFK"
+      msp_claim  = "Ihre Vorteile"
       portfolio = "Das Projekt"
       contact   = "Ihre Ansprechpartner"
       blog   = "Blog"
@@ -51,12 +51,125 @@ title = "Carbon Drive Ihre CFK-Experten"
     subtitle   = "CFK-Motorspindeln und Komponenten von Carbon-Drive"
     buttonText = "Finden Sie mehr heraus!"
 
-
   # About section
-  [params.about]
+  [params.ziel]
     headline    = "Unser Ziel"
-    description = """Unser Ziel ist es, die Leichtbau-optimalen Werkstoffeigenschaften von CFK zu nutzen, um den nächsten Technologiesprung im Werkzeugmaschinenbau einzuleiten. """
-    buttonText  = "Zur weltweit ersten Voll-CFK-Motorspindel"
+    description = """Die leichtbauoptimalen Werkstoffeigenschaften von CFK nutzen, um den nächsten Technologiesprung im Werkzeugmaschinenbau einzuleiten. """
+    buttonText  = "Welche Vorteile hat der Einsatz von CFK?"
+
+  # Vorteile section
+    [params.vorteile]
+      headline = "Vorteile durch CFK"
+      buttonText  = "Wo kann man diese Vorteile optimal Nutzen?"
+            [[params.vorteile.list]]
+                title = "Werkstoffvorteile von CFK"
+                [[params.vorteile.list.list]]
+                  item = "geringe Masse"
+                [[params.vorteile.list.list]]
+                  item = "hohe Steifigkeit"
+                [[params.vorteile.list.list]]
+                  item = "keine thermische Ausdehnung"
+                [[params.vorteile.list.list]]
+                  item = "additive Fertigungsverfahren"
+            [[params.vorteile.list]]
+                title = "Benefit für Werkzeugmaschinen"
+                [[params.vorteile.list.list]]
+                  item = "kürzere Bearbeitungszeiten"
+                [[params.vorteile.list.list]]
+                  item = "geringerer Energiebedarf"
+                [[params.vorteile.list.list]]
+                  item = "höhere Präzision"
+                [[params.vorteile.list.list]]
+                  item = "Sensorintegration an beliebiger Stelle"
+            [[params.vorteile.list]]
+                title = "Wirtschaftlicher Erfolg"
+                summary = "Gewinnsteigerung"
+                [[params.vorteile.list.list]]
+                  item = "höhere Produktivität"
+                [[params.vorteile.list.list]]
+                  item = "geringere Betriebskosten"
+
+  # msp_claim section
+  [params.msp_claim]
+    headline    = "CFK-Motorspindeln"
+    description = " Der Einsatz von CFK erschließt gerade bei dem Herzstück der Werkzeugmaschine ein komplett neues Leistungsspektrum."
+    buttonText = "Wie sieht die erste Motorspindel der Zukunft aus?"
+
+  # msp_data section
+    [params.msp_data]
+      headline = "Daten der ersten Voll-Carbon-Motorspindel"
+      buttonText  = "Wie sieht der Vergleich zu einer Stahlspindel aus?"
+            [[params.msp_data.list]]
+                title = "Drehzahl"
+                [[params.msp_data.list.list]]
+                  item = "35.000 rpm"
+            [[params.msp_data.list]]
+                title = "Leistung"
+                [[params.msp_data.list.list]]
+                  item = "10 kW"
+            [[params.msp_data.list]]
+                title = "Durchmesser"
+                [[params.msp_data.list.list]]
+                  item = "Ø 109 mm"
+            [[params.msp_data.list]]
+                title = "Länge"
+                [[params.msp_data.list.list]]
+                  item = "190 mm"
+            [[params.msp_data.list]]
+                title = "Werkzeugschnittstelle"
+                [[params.msp_data.list.list]]
+                  item = "HSK-A40"
+            [[params.msp_data.list]]
+                title = "Lagerschilde"
+                [[params.msp_data.list.list]]
+                  item = "CFK-Pressteile"
+            [[params.msp_data.list]]
+                title = "Welle & Gehäuse"
+                [[params.msp_data.list.list]]
+                  item = "CFK-Wickelteile"
+            [[params.msp_data.list]]
+                title = "Lagerung"
+                [[params.msp_data.list.list]]
+                  item = "4 Stk. Hochgeschindigkeits Hybridlager"
+                [[params.msp_data.list.list]]
+                  item = "fettgeschmiert"
+                [[params.msp_data.list.list]]
+                  item = "starr angestellt"
+            [[params.msp_data.list]]
+                title = "Positionieren"
+                [[params.msp_data.list.list]]
+                  item = "Drehgeber mit Referenzfahne"
+            [[params.msp_data.list]]
+                title = "Kühlung"
+                [[params.msp_data.list.list]]
+                  item = "2,2 kW- Flüssigkeitskühlkreislauf"
+            [[params.msp_data.list]]
+                title = "Motorbauart"
+                [[params.msp_data.list.list]]
+                  item = "Permanenterregter Synchronmotor"
+  # MSP Ergebnis section
+  [params.msp_ergebnis]
+    headline = "CFK vs. Stahl"
+    buttonText  = "Wie geht es weiter?"
+      [[params.msp_ergebnis.list]]
+        icon = "glyphicon glyphicon-scale"
+        title = "50% Leichter"
+        description = "Massenreduktion senkt Energiebedarf, Nebenzeiten und somit Kosten."
+
+      [[params.msp_ergebnis.list]]
+        icon = "fa fa-crosshairs"
+        title = "90% Präziser"
+        description = "Keine thermische Dehnung steigert Präzision und Oberflächenqualität"
+
+      [[params.msp_ergebnis.list]]
+        icon = "fa fa-dashboard"
+        title = "50% Schneller"
+        description = "Bei allen Beschleunigungsvorgängen"
+
+      [[params.msp_ergebnis.list]]
+        icon = "fa fa-lightbulb-o"
+        title = "Intelligenter"
+        description = "Smarte Bauteile mit lokal angepassten Werkstoffeigenschaften durch additive Bauweisen"
 
   # Team section
   [params.team]

@@ -1,0 +1,32 @@
+
+{{ "<!-- MSP-Data -->" | safeHTML }}
+<section  id="msp_data">
+    <div class="container">
+      <h2 class="section-heading text-center">{{ with .Site.Params.msp_data.headline }}{{ . }}{{ end }}</h2>
+      <hr>
+      <div class="row">
+        <div class="col-lg-16 col-lg-offset-1 text-center">
+          <table>
+            <tr>
+              <td style="text-align: left">
+                <dl>
+                  {{ range .Site.Params.msp_data.list }}
+                  <dt>{{ .title }}</dt>
+                    {{ range .list }}
+                    <dd>{{ .item }}</dd>
+                    {{ end }}
+                  {{ end }}
+                </dl>
+              </td>
+              <td>
+                <img alt="10kW-Spindel" title="10kW Voll-Carbon-Motorspindel" src="img/10kW_MSP.jpg" class="img-responsive center-block">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class=" text-center">
+          <a href="#msp_ergebnis" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.msp_data.buttonText }}{{ . }}{{ end }}</a>
+      </div>
+    </div>
+</section>

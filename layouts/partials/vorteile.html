@@ -1,0 +1,47 @@
+{{ "<!-- Vorteile -->" | safeHTML }}
+<section  id="vorteile">
+    <div class="container">
+      <h2 class="section-heading text-center">{{ with .Site.Params.vorteile.headline }}{{ . }}{{ end }}</h2>
+      <hr>
+        <div class="row">
+            <div class="col-lg-16 col-lg-offset-2 text-center">
+
+                <table>
+                  <tr>
+                    <td rowspan="7">
+                      <img alt="Faser_Welle_Werkzeug" title="Faser_Welle_Werkzeug" src="img/faser_welle_werkzeug.png" class="img-responsive center-block">
+                    </td>
+                    <td style="text-align: left">
+
+                    </td>
+                  </tr>
+                  {{ range .Site.Params.vorteile.list }}
+                  <tr>
+                    <td style="text-align: left">
+                        <h3 class="section-heading">{{ .title }}</h3>
+                        <ul>
+                          {{ range .list }}
+                              <li>{{ .item }}</li>
+                          {{ end }}
+                          {{ if .summary}}
+                            <hr style="margin-left: 0">
+                          {{ end }}
+                        </ul>
+                        {{ if .summary}}
+                          <ol><h4>Gewinnsteigerung</h4></ol>
+                        {{ end }}
+
+                      </td>
+                  </tr>
+                  {{ end }}
+                </table>
+
+                </div>
+
+        </div>
+        <div class=" text-center">
+          <p><br></p>
+            <a href="#msp_claim" class="btn btn-primary btn-xl page-scroll">{{ with .Site.Params.vorteile.buttonText }}{{ . }}{{ end }}</a>
+        </div>
+    </div>
+</section>
