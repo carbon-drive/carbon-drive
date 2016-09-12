@@ -157,8 +157,8 @@ theme = "hugo-creative-theme"
                   item = "Permanenterregter Synchronmotor"
   # cfk_vs_stahl section
   [params.cfk_vs_stahl]
-    headline    = "CFK- vs. Stahl-Motorspindel"
-    description = "Die 10-kW CFK-Motorspindel schafft es bei halbem Masseneinsatz, die Präzision und Geschwindigkeit der Stahl Motorspindel zu übertreffen!"
+    headline    = "Einschätzung der CFK-Motorspindel"
+    description = "Die 10-kW CFK-Motorspindel schafft es bei halbem Masseneinsatz, die Präzision und Geschwindigkeit der Stahl-Motorspindel zu übertreffen!"
     buttonText = "Was heißt das konkret?"
 
   # MSP Ergebnis section
@@ -187,7 +187,7 @@ theme = "hugo-creative-theme"
   # cfk_vs_stahl section
   [params.services_claim]
     headline    = "Unser Know-How, Ihr Gewinn"
-    description = "Gerne entwickeln, berechnen und realisieren wir für Sie individuelle CFK-Motorspindeln und Komponenten  "
+    description = "Gerne entwickeln, berechnen und realisieren wir für Sie individuelle CFK-Motorspindeln und Komponenten!  "
     buttonText = "Welche Services bietet Carbon-Drive an?"
 
 
