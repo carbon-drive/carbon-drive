@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "de-de"
 title = "Carbon Drive Ihre CFK-Experten"
-#theme = "hugo-creative-theme"
+theme = "hugo-creative-theme"
 
 [params]
 
