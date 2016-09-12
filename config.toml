@@ -211,7 +211,7 @@ theme = "hugo-creative-theme"
             description = "Prototypen, Testen & Produktion"
     # Team section
     [params.team]
-      headline    = "Das Managementteam"
+      headline    = "Das Management-Team"
       description = ""
     # Portfolio modals
   [params.portfolio.modal]
