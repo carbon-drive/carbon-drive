@@ -31,13 +31,21 @@ title = "Carbon Drive Ihre CFK-Experten"
   [params.navigation]
     brand = "Carbon-Drive"
 
-    [params.navigation.links]
-      ziel     = "Unser Ziel"
-      vorteile      = "Vorteile CFK"
-      msp_claim  = "Ihre Vorteile"
-      portfolio = "Das Projekt"
-      contact   = "Ihre Ansprechpartner"
-      blog   = "Blog"
+    [[params.navigation.links]]
+      target = "vorteile"
+      text = "Vorteile CFK"
+      [[params.navigation.links]]
+        target = "msp_data"
+        text = "CFK-Motorspindel"
+      [[params.navigation.links]]
+        target = "msp_ergebnis"
+        text = "Ergebnis CFK-Motorspindel"
+      [[params.navigation.links]]
+        target = "services"
+        text = "Unsere Leistungen"
+      [[params.navigation.links]]
+        target = "team"
+        text = "Kontakt"
 
     [[menu.main]]
           name = "Blog"
@@ -147,10 +155,16 @@ title = "Carbon Drive Ihre CFK-Experten"
                 title = "Motorbauart"
                 [[params.msp_data.list.list]]
                   item = "Permanenterregter Synchronmotor"
+  # cfk_vs_stahl section
+  [params.cfk_vs_stahl]
+    headline    = "CFK- vs. Stahl-Motorspindel"
+    description = "Die 10-kW CFK-Motorspindel schafft es bei halbem Masseneinsatz, die Präzision und Geschwindigkeit der Stahl Motorspindel zu übertreffen!"
+    buttonText = "Was heißt das konkret?"
+
   # MSP Ergebnis section
   [params.msp_ergebnis]
-    headline = "CFK vs. Stahl"
-    buttonText  = "Wie geht es weiter?"
+    headline = "CFK- vs. Stahl-Motorspindel"
+    buttonText  = "Wie kann ich von diesem Know-How profitieren?"
       [[params.msp_ergebnis.list]]
         icon = "glyphicon glyphicon-scale"
         title = "50% Leichter"
@@ -170,36 +184,35 @@ title = "Carbon Drive Ihre CFK-Experten"
         icon = "fa fa-lightbulb-o"
         title = "Intelligenter"
         description = "Smarte Bauteile mit lokal angepassten Werkstoffeigenschaften durch additive Bauweisen"
+  # cfk_vs_stahl section
+  [params.services_claim]
+    headline    = "Unser Know-How, Ihr Gewinn"
+    description = "Gerne entwickeln, berechnen und realisieren wir für Sie individuelle CFK-Motorspindeln und Komponenten  "
+    buttonText = "Welche Services bietet Carbon-Drive an?"
 
-  # Team section
-  [params.team]
-    headline    = "Das Team"
-    description = "Wir sind ein junges Spin-Off der Fachgebiets Konstruktiver Leichtbau und Bauweisen. Im einzelnen Dr.-Ing. Martin Klimach, Dr.-Ing. Jakob Katz, Alexander Brechtel, M.Sc. und Volker Rosmann"
 
   # Service section
   [params.services]
-    headline = "Ihre Vorteile"
-    buttonText  = "Welche Gesichter stecken hinter Carbon-Drive"
+    headline = "Unser Service für Sie:"
+    buttonText  = "Wer sind Ihre Ansprechpartner?"
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Kohlenstoff: Der Zukunftswerkstoff"
-            description = "Mit unseren hochsteifen Kohlenstofffasern werden Ihre Werkzeugmaschinen schneller und präziser."
-
-        [[params.services.list]]
-           icon = "fa-graduation-cap"
-           title = "Unser Know-Kow ist unschlagbar"
-           description = "Wir legen Ihre Spindelwelle nach neusten wissenschaftlichen Erkenntnissen aus!"
+            icon = "icon_entwickeln"
+            title = "Entwicklung"
+            description = "Konzeption nach Ihren Bedürfnissen, Weiter- und Neuentwicklungen, Chancen aufzeigen."
 
         [[params.services.list]]
-            icon = "fa-crosshairs"
-            title = "Präzision und Qualität"
-            description = "Unsere CFK-Spindelwellen erfüllen auch Ihre höchsten Ansprüche!"
+           icon = "icon_auslegen"
+           title = "Engineering"
+           description = "Konstruktion, Berechnung & Optimierung"
 
-    [[params.services.list]]
-            icon = "fa-line-chart"
-            title = "Wir steigern Ihren Gewinn"
-            description = "Mit unseren Spindelwellen können Sie schneller präzise fertigen."
-
+        [[params.services.list]]
+            icon = "icon_herstellen"
+            title = "Herstellung"
+            description = "Prototypen, Testen & Produktion"
+    # Team section
+    [params.team]
+      headline    = "Das Managementteam"
+      description = ""
     # Portfolio modals
   [params.portfolio.modal]
         client = "Ansprechpartner"

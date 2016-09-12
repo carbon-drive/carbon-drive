@@ -14,28 +14,11 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-            {{ with .Site.Params.navigation.links }}
-                <li>
-                    <a class="page-scroll" href="/#ziel">{{ .ziel }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/#vorteile">{{ .vorteile }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/#msp_claim">{{ .msp_claim }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/#msp_data">{{ .msp_data }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/#msp_ergebnis">{{ .msp_data }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/#contact">{{.contact }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/post/">{{.blog }}{{ end }}</a>
-                </li>
+            {{ range .Site.Params.navigation.links }}
+            <li>
+                <a class="page-scroll" href="/#{{ .target }}">{{ .text }}</a>
+            </li>
+        {{ end }}
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

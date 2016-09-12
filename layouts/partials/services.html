@@ -13,7 +13,7 @@
             {{ range .Site.Params.services.list }}
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
+                    <i class="fa fa-4x wow bounceIn text-primary"><img src="img/{{ .icon }}.jpg" class="img-responsive img-centered" alt=""></i>
                     <h3>{{ .title }}</h3>
                     <p class="text-muted">{{ .description }}</p>
                 </div>

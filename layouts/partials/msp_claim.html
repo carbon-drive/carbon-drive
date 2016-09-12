@@ -1,18 +1,15 @@
 {{ "<!-- MSP-Claim -->" | safeHTML }}
+{{ with .Site.Params.msp_claim }}
 <section  class="bg-primary" id="msp_claim">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.msp_claim.headline }}{{ . }}{{ end }}</h2>
+                <h2 class="section-heading">{{ .headline }}</h2>
                 <hr class="light">
-                <p >
-                    <i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>
-                    {{ with .Site.Params.msp_claim.description }}{{ . | markdownify }}{{ end }}
-                    <i class="fa fa-quote-right fa-2x fa-pull-right" aria-hidden="true"></i><br><br></p>
-                <a href="#msp_data" class="btn btn-default btn-xl page-scroll wow tata">
-                  {{ with .Site.Params.msp_claim.buttonText }}{{ . }}{{ end }}
-                </a>
+                <p ><i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>{{ .description | markdownify }}<i class="fa fa-quote-right fa-2x fa-pull-right" aria-hidden="true"></i><br><br></p>
+                <a href="#msp_data" class="btn btn-default btn-xl page-scroll wow tata">{{ .buttonText }}</a>
 
         </div>
     </div>
 </section>
+{{ end }}

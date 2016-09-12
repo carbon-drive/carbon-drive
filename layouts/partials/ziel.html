@@ -1,13 +1,15 @@
 {{ "<!-- Ziel -->" | safeHTML }}
+{{ with .Site.Params.ziel }}
 <section  class="bg-primary" id="ziel">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">{{ with .Site.Params.ziel.headline }}{{ . }}{{ end }}</h2>
+                <h2 class="section-heading">{{ .headline }}</h2>
                 <hr class="light">
-                <p ><i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>{{ with .Site.Params.ziel.description }}{{ . | markdownify }}{{ end }}<i class="fa fa-quote-right fa-2x fa-pull-right" aria-hidden="true"></i><br><br></p>
-                <a href="#vorteile" class="btn btn-default btn-xl page-scroll wow tata">{{ with .Site.Params.ziel.buttonText }}{{ . }}{{ end }}</a>
+                <p ><i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>{{ .description | markdownify }}<i class="fa fa-quote-right fa-2x fa-pull-right" aria-hidden="true"></i><br><br></p>
+                <a href="#vorteile" class="btn btn-default btn-xl page-scroll wow tata">{{ .buttonText }}</a>
 
         </div>
     </div>
 </section>
+{{ end }}
