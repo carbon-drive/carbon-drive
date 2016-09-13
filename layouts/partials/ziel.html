@@ -1,14 +1,15 @@
 {{ "<!-- Ziel -->" | safeHTML }}
 {{ with .Site.Params.ziel }}
-<section  class="bg-primary" id="ziel">
-    <div class="container">
+<section   class="bg-primary" id="ziel">
+    <div  height="100%" class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div  class="col-lg-8 col-lg-offset-2 text-center">
+                <br><br><br><br><br><br><br><br><br><br>
                 <h2 class="section-heading">{{ .headline }}</h2>
                 <hr class="light">
                 <p ><i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>{{ .description | markdownify }}<i class="fa fa-quote-right fa-2x fa-pull-right" aria-hidden="true"></i><br><br></p>
                 <a href="#vorteile" class="btn btn-default btn-xl page-scroll wow tata">{{ .buttonText }}</a>
-
+                <br><br><br><br><br><br><br><br><br><br>
         </div>
     </div>
 </section>
