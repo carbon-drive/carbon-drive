@@ -5,7 +5,7 @@ title = "Impressum"
 +++
 
 ### Angaben gemäß § 5 TMG: ###
-Carbon-Drive GmbH i.G.  
+Carbon-Drive GmbH  
 Otto-Berndt-Str. 2  
 64287 Darmstadt  
 
