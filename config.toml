@@ -154,7 +154,7 @@ theme = "hugo-creative-theme"
             [[params.msp_data.list]]
                 title = "Motorbauart"
                 [[params.msp_data.list.list]]
-                  item = "Permanenterregter Synchronmotor"
+                  item = "Permanentmagnet-erregter Synchronmotor"
   # cfk_vs_stahl section
   [params.cfk_vs_stahl]
     headline    = "Einschätzung der CFK-Motorspindel"
