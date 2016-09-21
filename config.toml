@@ -124,6 +124,10 @@ theme = "hugo-creative-theme"
                 [[params.msp_data.list.list]]
                   item = "190 mm"
             [[params.msp_data.list]]
+                title = "Gewicht"
+                [[params.msp_data.list.list]]
+                    item = "5 kg"
+            [[params.msp_data.list]]
                 title = "Werkzeugschnittstelle"
                 [[params.msp_data.list.list]]
                   item = "HSK-A40"
