@@ -20,7 +20,7 @@ theme = "hugo-creative-theme"
   # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
   name = "Carbon-Drive GmbH"
-  description = "CFK-Motorspindeln und Komponenten: Leichter. Präziser. Schneller."
+  description = "CFK-Motorspindeln und Komponenten von Carbon-Drive: Leichter. Präziser. Schneller."
 
   # The path must be relative to the static folder
   favicon = "favicon.ico"
@@ -55,8 +55,8 @@ theme = "hugo-creative-theme"
   # Hero section
   [params.hero]
     # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-    slogan     = "Leichter. Präziser. Schneller."
-    subtitle   = "CFK-Motorspindeln und Komponenten von Carbon-Drive"
+    subtitle     = "Leichter. Präziser. Schneller."
+    slogan   = "CFK-Motorspindeln und Komponenten von Carbon-Drive"
     buttonText = "Finden Sie mehr heraus!"
 
   # About section
