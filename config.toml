@@ -55,8 +55,8 @@ theme = "hugo-creative-theme"
   # Hero section
   [params.hero]
     # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-    subtitle     = "Leichter. Präziser. Schneller."
-    slogan   = "CFK-Motorspindeln und Komponenten von Carbon-Drive"
+    slogan     = "Leichter. Präziser. Schneller."
+    subtitle   = "CFK-Motorspindeln und Komponenten von Carbon-Drive"
     buttonText = "Finden Sie mehr heraus!"
 
   # About section
