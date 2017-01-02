@@ -100,7 +100,7 @@ theme = "hugo-creative-theme"
   # msp_claim section
   [params.msp_claim]
     headline    = "CFK-Motorspindeln"
-    description = " Der Einsatz von CFK erschließt gerade bei dem Herzstück der Werkzeugmaschine ein komplett neues Leistungsspektrum."
+    description = "Der Einsatz von CFK erschließt gerade bei dem Herzstück der Werkzeugmaschine ein komplett neues Leistungsspektrum."
     buttonText = "Wie sieht die erste Motorspindel der Zukunft aus?"
 
   # msp_data section
@@ -142,7 +142,7 @@ theme = "hugo-creative-theme"
             [[params.msp_data.list]]
                 title = "Lagerung"
                 [[params.msp_data.list.list]]
-                  item = "4 Stk. Hochgeschindigkeits Hybridlager"
+                  item = "4 Stk. Hochgeschwindigkeits Hybridlager"
                 [[params.msp_data.list.list]]
                   item = "fettgeschmiert"
                 [[params.msp_data.list.list]]
