@@ -62,8 +62,8 @@ theme = "hugo-creative-theme"
   # About section
   [params.ziel]
     headline    = "Unser Ziel"
-    description = """Die leichtbauoptimalen Werkstoffeigenschaften von CFK nutzen, um den nächsten Technologiesprung im Werkzeugmaschinenbau einzuleiten. """
-    buttonText  = "Welche Vorteile hat der Einsatz von CFK?"
+    description = "Die leichtbauoptimalen Werkstoffeigenschaften von CFK nutzen, um den nächsten Technologiesprung im Werkzeugmaschinenbau einzuleiten. "
+    button  = "Welche Vorteile hat der Einsatz von CFK?"
 
   # Vorteile section
     [params.vorteile]
@@ -101,7 +101,7 @@ theme = "hugo-creative-theme"
   [params.msp_claim]
     headline    = "CFK-Motorspindeln"
     description = "Der Einsatz von CFK erschließt gerade bei dem Herzstück der Werkzeugmaschine ein komplett neues Leistungsspektrum."
-    buttonText = "Wie sieht die erste Motorspindel der Zukunft aus?"
+    button = "Wie sieht die erste Motorspindel der Zukunft aus?"
 
   # msp_data section
     [params.msp_data]
@@ -126,7 +126,7 @@ theme = "hugo-creative-theme"
             [[params.msp_data.list]]
                 title = "Gewicht"
                 [[params.msp_data.list.list]]
-                    item = "5 kg"
+                    item = "4 kg"
             [[params.msp_data.list]]
                 title = "Werkzeugschnittstelle"
                 [[params.msp_data.list.list]]
@@ -163,12 +163,12 @@ theme = "hugo-creative-theme"
   [params.cfk_vs_stahl]
     headline    = "Einschätzung der CFK-Motorspindel"
     description = "Die 10-kW CFK-Motorspindel schafft es bei halbem Masseneinsatz, die Präzision und Geschwindigkeit der Stahl-Motorspindel zu übertreffen!"
-    buttonText = "Was heißt das konkret?"
+    buttontext = "Was heißt das konkret?"
 
   # MSP Ergebnis section
   [params.msp_ergebnis]
     headline = "CFK- vs. Stahl-Motorspindel"
-    buttonText  = "Wie kann ich von diesem Know-How profitieren?"
+    buttontext  = "Wie kann ich von diesem Know-How profitieren?"
       [[params.msp_ergebnis.list]]
         icon = "glyphicon glyphicon-scale"
         title = "50% Leichter"
@@ -192,13 +192,13 @@ theme = "hugo-creative-theme"
   [params.services_claim]
     headline    = "Unser Know-How, Ihr Gewinn"
     description = "Gerne entwickeln, berechnen und realisieren wir für Sie individuelle CFK-Motorspindeln und Komponenten!  "
-    buttonText = "Welche Services bietet Carbon-Drive an?"
+    buttontext = "Welche Services bietet Carbon-Drive an?"
 
 
   # Service section
   [params.services]
     headline = "Unser Service für Sie:"
-    buttonText  = "Wer sind Ihre Ansprechpartner?"
+    buttontext  = "Wer sind Ihre Ansprechpartner?"
         [[params.services.list]]
             icon = "icon_entwickeln"
             title = "Entwicklung"
@@ -215,14 +215,14 @@ theme = "hugo-creative-theme"
             description = "Prototypen, Testen & Produktion"
     # Team section
     [params.team]
-      headline    = "Das Management-Team"
+      headline    = "Die Geschäftsführung"
       description = ""
     # Portfolio modals
   [params.portfolio.modal]
         client = "Ansprechpartner"
         date = "Datum"
         category = "Kategorie"
-        buttonText = "Schließen"
+        buttontext = "Schließen"
   # Portfolio modals
   [params.team_portfolio.modal]
             client = "Kontakt"
@@ -230,7 +230,7 @@ theme = "hugo-creative-theme"
             mail = "E-Mail"
             phone = "Telefon"
             category = "Position"
-            buttonText = "Schließen"
+            buttontext = "Schließen"
     # Projekte section
   [params.projekte]
     headline    = "Das Projekt"
@@ -239,12 +239,12 @@ theme = "hugo-creative-theme"
                    1. Eigenschaften des Referenzsystems mit Stahlwelle ermitteln
                    2. Einbau der CFK-Spindelwelle
                    3. Eigenschaften des Systems mit CFK-Spindelwelle ermitteln """
-    buttonText  = "Zu den Teilprojekten!"
+    buttontext  = "Zu den Teilprojekten!"
 
 
   # Contact section
   [params.contact]
     headline = "Stellen Sie uns Fragen!"
     description = "Sind Sie bereit für den nächsten Schritt auf dem Weg zu höchster Präzision? Dann rufen Sie uns an oder schreiben Sie uns eine Email. Wir freuen uns darauf Sie voran zubringen!"
-    phone = "+49-6151-16-22026"
+    phone = "+49-6150-83-09238"
     email = "info@carbon-drive.de"

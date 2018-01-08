@@ -6,22 +6,21 @@ title = "Impressum"
 
 ### Angaben gemäß § 5 TMG: ###
 Carbon-Drive GmbH  
-Otto-Berndt-Str. 2  
-64287 Darmstadt  
+Egerländer Str. 6  
+64331 Weiterstadt  
 
 ### Vertreten durch: ###
-Herr Dr.-Ing. Martin Klimach  
-Herr Dr.-Ing. Jakob Katz  
+Herr Dr.-Ing. Martin Klimach    
 Herr Alexander Brechtel, M. Sc.
 
 ### Kontakt: ###
 <table>
     <tr>
         <td>Telefon:</td>
-        <td>+49 (0) 6151 16 22026</td></tr>
+        <td>+49 (0) 6150 83 09 238</td></tr>
     <tr>
         <td>Telefax:</td>
-        <td>+49 (0) 6151 16 21980</td></tr>
+        <td>+49 (0) 06150 83 08 972</td></tr>
     <tr>
         <td>E-Mail:</td>
         <td><a href="mailto:info@carbon-drive.de"> info(at)carbon-drive.de</a></td>
