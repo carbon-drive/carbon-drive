@@ -20,7 +20,7 @@ Herr Alexander Brechtel, M. Sc.
         <td>+49 (0) 6150 83 09 238</td></tr>
     <tr>
         <td>Telefax:</td>
-        <td>+49 (0) 06150 83 08 972</td></tr>
+        <td>+49 (0) 6150 83 08 972</td></tr>
     <tr>
         <td>E-Mail:</td>
         <td><a href="mailto:info@carbon-drive.de"> info(at)carbon-drive.de</a></td>
