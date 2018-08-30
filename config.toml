@@ -110,7 +110,7 @@ theme = "hugo-creative-theme"
             [[params.msp_data.list]]
                 title = "Drehzahl"
                 [[params.msp_data.list.list]]
-                  item = "35.000 rpm"
+                  item = "25.000 rpm"
             [[params.msp_data.list]]
                 title = "Leistung"
                 [[params.msp_data.list.list]]
@@ -130,7 +130,7 @@ theme = "hugo-creative-theme"
             [[params.msp_data.list]]
                 title = "Werkzeugschnittstelle"
                 [[params.msp_data.list.list]]
-                  item = "HSK-A40"
+                  item = "HSK-40"
             [[params.msp_data.list]]
                 title = "Lagerschilde"
                 [[params.msp_data.list.list]]
@@ -215,7 +215,7 @@ theme = "hugo-creative-theme"
             description = "Prototypen, Testen & Produktion"
     # Team section
     [params.team]
-      headline    = "Die Geschäftsführung"
+      headline    = "Die Gründer"
       description = ""
     # Portfolio modals
   [params.portfolio.modal]
