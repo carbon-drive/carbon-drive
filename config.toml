@@ -145,8 +145,6 @@ theme = "hugo-creative-theme"
                   item = "4 Stk. Hochgeschwindigkeits Hybridlager"
                 [[params.msp_data.list.list]]
                   item = "fettgeschmiert"
-                [[params.msp_data.list.list]]
-                  item = "starr angestellt"
             [[params.msp_data.list]]
                 title = "Positionieren"
                 [[params.msp_data.list.list]]
